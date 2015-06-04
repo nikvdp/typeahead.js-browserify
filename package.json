@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "typeahead.js": "^0.11.1"
+  },
+  "name": "typeahead.js-browserify",
+  "version": "1.0.0",
+  "description": "Simple wrapper for typeahad.js and browserify",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
