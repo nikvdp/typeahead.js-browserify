@@ -10,13 +10,18 @@ This package is just a small wrapper that allows you to access Bloodhound and lo
 
 Bloodhound: 
 ```javascript
-var Bloodhound = require("typeahead.js-browserify").Bloodhound()
+var Bloodhound = require("typeahead.js-browserify").Bloodhound 
+var engine = new Bloodhound({
+  local: ['dog', 'pig', 'moose'],
+  queryTokenizer: Bloodhound.tokenizers.whitespace,
+  datumTokenizer: Bloodhound.tokenizers.whitespace
+});
 ```
 
-For jQuery just `require` jQuery, and then call `loadjQueryPlugin()`. typeahead.js will attach itself to the previously required jQuery.
+For jQuery just `require` jquery, and then call `loadjQueryPlugin()`. typeahead.js will attach itself to the previously required jQuery.
 
 ```javascript
-var jQuery = require("jQuery");
+var jQuery = require("jquery");
 var typeahead = require("typeahead.js-browserify");
 typeahead.loadjQueryPlugin();
 ```
