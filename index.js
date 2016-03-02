@@ -1,4 +1,4 @@
 module.exports = {
-    "Bloodhound": require("corejs-typeaheads/dist/bloodhound.js"),
+    "Bloodhound": require("corejs-typeahead/dist/bloodhound.js"),
     "loadjQueryPlugin": function() {require("corejs-typeahead");}
 };
