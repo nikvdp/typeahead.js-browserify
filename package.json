@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "typeahead.js": "^0.11.1"
+    "corejs-typeahead": "git@github.com:corejavascript/typeahead.js.git"
   },
   "name": "typeahead.js-browserify",
   "version": "1.0.7",
